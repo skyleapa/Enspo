@@ -25,14 +25,14 @@ const Lookbook = () => {
       <div className="hi">
         <div className="clothing1">
           <ClothingPiece
-            image={require("./Clothing/scrunch crew sock_low.png")}
+            image={require("./Clothing/SALE_burgundy_sweater.png")}
             // name="Jeans"
             // tags="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
           />{" "}
         </div>
         <div className="clothing2">
           <ClothingPiece
-            image={require("./Clothing/SALE_tnamove tennis mini pleated skirt_low.png")}
+            image={require("./Clothing/black_cinched_t_shirt_low (1).png")}
             // name="Jeans"
             // tags="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
           />{" "}

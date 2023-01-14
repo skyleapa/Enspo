@@ -221,3 +221,40 @@ h1 {
   text-align: center;
   font-size: 30px;
 }
+
+/* Hover clothes*/
+.clothing1:hover {
+  transform: scale(1.1);
+}
+
+.clothing2:hover {
+  transform: scale(1.1);
+}
+
+.clothing3:hover {
+  transform: scale(1.1);
+}
+
+.clothing4:hover {
+  transform: scale(1.1);
+}
+
+.clothing5:hover {
+  transform: scale(1.1);
+}
+
+.clothing6:hover {
+  transform: scale(1.1);
+}
+
+.clothing7:hover {
+  transform: scale(1.1);
+}
+
+.clothing8:hover {
+  transform: scale(1.1);
+}
+
+.clothing9:hover {
+  transform: scale(1.1);
+}
