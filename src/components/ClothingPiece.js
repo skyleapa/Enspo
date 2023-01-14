@@ -11,7 +11,7 @@ const ClothingPiece = (props) => {
   return (
     <div className="clothing">
       <div className="clothing-image">
-        <img src={props.image} alt="testie" id="logo-img"></img>
+        <img src={props.image} alt="testie" id="items-img"></img>
       </div>
       <div className="content">
         <div className="name">{props.name}</div>
