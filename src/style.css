@@ -1,14 +1,30 @@
+* {
+  font-family: Non-Seasonal Geo, sans-serif;
+}
 body {
   color: black;
-  background-color: antiquewhite;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+hr {
+  width: 60%;
+  max-width: 800px;
+  margin-left: 0;
+}
+
 .welcome {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.slogan {
+  font-size: 20px;
+  font-weight: light;
   padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 30px;
+  padding-bottom: 20px;
 }
