@@ -98,9 +98,16 @@ button {
 }
 
 #logo-img {
-  width: 65px;
+  width: 70px !important;
   margin-left: 10px;
   position: absolute;
+}
+
+#items-img {
+  max-width: 120px;
+  height: auto;
+  /* width: 55px !important; */
+  /* position: absolute; */
 }
 
 .logo-container {
@@ -108,12 +115,146 @@ button {
   vertical-align: middle;
 }
 
-/* .flexbox-item {
-  color: white;
-  display: flex;
-  flex-direction: column;
+.name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-li {
-  list-style-type: none;
-} */
+.hi {
+  display: inline-flex;
+  background-color: white;
+  flex-wrap: wrap;
+  border-color: black;
+  /* outline: 0.4px solid black; */
+  gap: 2%;
+  margin: auto;
+  border-radius: 10px;
+  -webkit-transform: translateX(10px); /* 10px to left */
+  -moz-transform: translateX(10px); /* 10px to left */
+  -ms-transform: translateX(10px); /* 10px to left */
+  transform: translateX(10px); /* 10px to left */
+  box-shadow: -11px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  background-color: #edebe6;
+}
+
+.image-container {
+}
+
+.lookbook1 {
+  padding-bottom: 100px;
+  max-width: 85%;
+}
+
+.lookbook2 {
+  padding-bottom: 100px;
+}
+
+.clothing-image {
+  margin: 0 auto;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.clothing {
+  position: relative;
+  flex-grow: 10;
+  border-radius: 12px;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  outline-offset: 0.5em;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.unique_element {
+  font-size: 20px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.clothing1 {
+  padding-right: 20px;
+  margin-left: 50px;
+}
+
+.clothing2 {
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.clothing3 {
+  margin-top: 30px;
+}
+
+.clothing4 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.clothing5 {
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+.clothing6 {
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.clothing7 {
+  margin-top: -20px;
+  padding-right: 20px;
+}
+
+.tag {
+  padding-top: 30px;
+  padding-left: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Hover clothes*/
+.clothing1:hover {
+  transform: scale(1.1);
+}
+
+.clothing2:hover {
+  transform: scale(1.1);
+}
+
+.clothing3:hover {
+  transform: scale(1.1);
+}
+
+.clothing4:hover {
+  transform: scale(1.1);
+}
+
+.clothing5:hover {
+  transform: scale(1.1);
+}
+
+.clothing6:hover {
+  transform: scale(1.1);
+}
+
+.clothing7:hover {
+  transform: scale(1.1);
+}
+
+.clothing8:hover {
+  transform: scale(1.1);
+}
+
+.clothing9:hover {
+  transform: scale(1.1);
+}
