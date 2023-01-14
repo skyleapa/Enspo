@@ -23,14 +23,14 @@ const Lookbook = () => {
         </div>
       </div>
       <div className="hi">
-        <div className="position">
+        <div className="clothing1">
           <ClothingPiece
             image={require("./Clothing/scrunch crew sock_low.png")}
             // name="Jeans"
             // tags="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
           />{" "}
         </div>
-        <div className="position">
+        <div className="clothing2">
           <ClothingPiece
             image={require("./Clothing/SALE_tnamove tennis mini pleated skirt_low.png")}
             // name="Jeans"
@@ -38,7 +38,7 @@ const Lookbook = () => {
           />{" "}
           <br />
         </div>
-        <div className="position">
+        <div className="clothing3">
           <ClothingPiece
             image={require("./Clothing/SALE_the pillow puff_low.png")}
             // name="Jeans"
@@ -46,7 +46,7 @@ const Lookbook = () => {
           />{" "}
           <br />
         </div>
-        <div className="position">
+        <div className="clothing4">
           <ClothingPiece
             image={require("./Clothing/mittens_low.png")}
             // name="Jeans"
@@ -54,7 +54,7 @@ const Lookbook = () => {
           />{" "}
           <br />
         </div>
-        <div className="position">
+        <div className="clothing5">
           <ClothingPiece
             image={require("./Clothing/SALE_cropped_crewneck_low.png")}
             // name="Jeans"
@@ -62,7 +62,7 @@ const Lookbook = () => {
           />{" "}
           <br />
         </div>
-        <div className="position">
+        <div className="clothing6">
           <ClothingPiece
             image={require("./Clothing/super puff.png")}
             // name="Jeans"
@@ -70,9 +70,25 @@ const Lookbook = () => {
           />{" "}
           <br />
         </div>
-        <div className="position">
+        <div className="clothing7">
           <ClothingPiece
             image={require("./Clothing/SALE_tnalife cheeky flare hi rise legging_low.png")}
+            // name="Jeans"
+            // tags="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+          />{" "}
+          <br />
+        </div>
+        <div className="clothing8">
+          <ClothingPiece
+            image={require("./Clothing/SALE_effortless pants_low.png")}
+            // name="Jeans"
+            // tags="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+          />{" "}
+          <br />
+        </div>
+        <div className="clothing9">
+          <ClothingPiece
+            image={require("./Clothing/SALE_green_tank_low.png")}
             // name="Jeans"
             // tags="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
           />{" "}
