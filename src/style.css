@@ -98,7 +98,7 @@ button {
 }
 
 #logo-img {
-  width: 65px;
+  width: 65px !important;
   margin-left: 10px;
   position: absolute;
 }
@@ -108,12 +108,33 @@ button {
   vertical-align: middle;
 }
 
-/* .flexbox-item {
-  color: white;
-  display: flex;
-  flex-direction: column;
+.lookbook1 {
+  padding: 100px;
 }
 
-li {
-  list-style-type: none;
-} */
+.lookbook2 {
+  padding: 100px;
+}
+
+.clothing-image {
+}
+
+.name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-container {
+  display: flex;
+  margin: auto;
+  position: absolute;
+}
+
+.position {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  float: right;
+  position: relative;
+}

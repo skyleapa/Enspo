@@ -2,13 +2,16 @@ import React from "react";
 import SearchBar from "./components/SearchBar";
 import "./style.css";
 import Lookbook from "./components/lookbook";
+import "reactjs-popup/dist/index.css";
 import ClothingPiece from "./components/ClothingPiece";
-import Image from "./logo.png";
-import KeyClothingPiece from "./components/KeyClothingPiece";
+// import Prompt from "./Prompt";
+// import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 
 const App = () => {
   return (
     <>
+      {/* <Prompt /> */}
       <header className="header">
         <div logo-container>
           <img src={require("./logo.png")} alt="test" id="logo-img"></img>
@@ -34,17 +37,12 @@ const App = () => {
             <SearchBar />
           </div> */}
         <div className="lookbooks">
-          <Lookbook />
-          <Lookbook />
-          {/* <Lookbook>
-              <ClothingPiece Image="" name="" tags="" />
-            </Lookbook>
-            <Lookbook>
-              <ClothingPiece Image="" name="" tags="" />
-            </Lookbook>
-            <Lookbook>
-              <ClothingPiece Image="" name="" tags="" />
-            </Lookbook> */}
+          <div className="lookbook1">
+            <Lookbook />
+          </div>
+          <div className="lookbook2">
+            <Lookbook />
+          </div>
         </div>
       </div>
     </>
