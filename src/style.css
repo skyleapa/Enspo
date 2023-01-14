@@ -126,15 +126,30 @@ button {
 }
 
 .image-container {
-  display: flex;
+  display: inline-flex;
+  left: -50%;
+  gap: 20%;
   margin: auto;
-  position: absolute;
+  -webkit-transform: translateX(10px); /* 10px to left */
+  -moz-transform: translateX(10px); /* 10px to left */
+  -ms-transform: translateX(10px); /* 10px to left */
+  transform: translateX(10px); /* 10px to left */
 }
 
-.position {
+.clothing-image {
+  margin: 0 auto;
   display: inline-block;
   max-width: 100%;
   height: auto;
-  float: right;
+  float: left;
   position: relative;
+}
+
+.clothing {
+  position: relative;
+  left: -100%;
+  flex-grow: 2;
+  border-color: black;
+  border: 2px;
+  border-width: 32px;
 }
