@@ -4,9 +4,6 @@ import "./style.css";
 import Lookbook from "./components/lookbook";
 import "reactjs-popup/dist/index.css";
 import ClothingPiece from "./components/ClothingPiece";
-// import Prompt from "./Prompt";
-// import Popup from "reactjs-popup";
-import "reactjs-popup/dist/index.css";
 
 const App = () => {
   return (
