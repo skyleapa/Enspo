@@ -98,7 +98,7 @@ button {
 }
 
 #logo-img {
-  width: 10px !important;
+  width: 70px !important;
   margin-left: 10px;
   position: absolute;
 }
@@ -123,16 +123,25 @@ button {
 
 .image-container {
   display: inline-flex;
+  background-color: white;
   flex-wrap: wrap;
   border-color: black;
-  border: 3px dashed red;
-  outline: 3px solid blue;
+  outline: 0.1px solid black;
   gap: 2%;
   margin: auto;
+  border-radius: 10px;
   -webkit-transform: translateX(10px); /* 10px to left */
   -moz-transform: translateX(10px); /* 10px to left */
   -ms-transform: translateX(10px); /* 10px to left */
   transform: translateX(10px); /* 10px to left */
+}
+
+.lookbook1 {
+  padding-bottom: 100px;
+}
+
+.lookbook2 {
+  padding-bottom: 100px;
 }
 
 .clothing-image {
@@ -145,18 +154,12 @@ button {
 
 .clothing {
   position: relative;
-  /* width: 85%; */
-  /* height: 85%; */
-  /* left: -100%; */
   flex-grow: 10;
-  border-color: black;
-  border: 3px dashed red;
-  outline: 3px solid blue;
   border-radius: 12px;
   font-size: 20px;
   font-weight: bold;
-  margin: 30px;
-  padding: 30px;
+  margin: 20px;
+  padding: 20px;
   outline-offset: 0.5em;
   text-align: center;
 }
