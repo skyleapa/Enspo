@@ -121,7 +121,7 @@ button {
   font-weight: bold;
 }
 
-.image-container {
+.hi {
   display: inline-flex;
   background-color: white;
   flex-wrap: wrap;
@@ -134,6 +134,9 @@ button {
   -moz-transform: translateX(10px); /* 10px to left */
   -ms-transform: translateX(10px); /* 10px to left */
   transform: translateX(10px); /* 10px to left */
+}
+
+.image-container {
 }
 
 .lookbook1 {
@@ -157,9 +160,19 @@ button {
   flex-grow: 10;
   border-radius: 12px;
   font-size: 20px;
+  margin-top: 10px;
   font-weight: bold;
-  margin: 20px;
-  padding: 20px;
   outline-offset: 0.5em;
   text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.unique_element {
+  font-size: 20px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }

@@ -32,7 +32,6 @@ const App = () => {
           <div className="welcome">Welcome to your Aritzia Lookbook!</div>
           <hr />
         </div>
-        <div className="slogan">Customize your wardrobe today. </div>
         {/* <div className="Search">
             <SearchBar />
           </div> */}
