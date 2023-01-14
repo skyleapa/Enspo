@@ -39,9 +39,6 @@ const App = () => {
           <div className="lookbook1">
             <Lookbook />
           </div>
-          <div className="lookbook2">
-            <Lookbook />
-          </div>
         </div>
       </div>
     </>

@@ -3,6 +3,18 @@ import ClothingPiece from "./ClothingPiece";
 import KeyClothingPiece from "./KeyClothingPiece";
 
 const Lookbook = () => {
+  //   return  (
+  //     <div className="image-container">
+  //       <div class="unique-wrapper">
+  //          <div class="unique_element">
+  //           `Explore your outfits today with your first ${props.name} lookbook!`
+  //          </div>
+  //        </div>
+  //       {props.children}
+  //     </div>
+  //   )
+
+  // }
   return (
     <div className="image-container">
       <div class="unique-wrapper">
