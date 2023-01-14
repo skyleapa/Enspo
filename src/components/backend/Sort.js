@@ -1,7 +1,7 @@
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "test",
+  apiKey: "butts",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -27,7 +27,6 @@ async function respond(keyword, array) {
     // console.log("Response is " + response.data.choices[0].text);
 
     return response.data.choices[0].text;
-  
 }
 
 // "beach", ["cool", "clear sky", "edgy"]

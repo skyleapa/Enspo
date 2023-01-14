@@ -1,5 +1,5 @@
-import data from './data/clothes.json'
+import data from '../../data/clothes.json' assert {type: "json"}
 
 const myObj = JSON.parse(data);
 x = myObj.coats;
-console.log(myObj[0]);
+console.log(x[0]);
