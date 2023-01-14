@@ -1,3 +1,4 @@
+import { getAllByAltText } from "@testing-library/react";
 import React from "react";
 import logo from "./logo.png";
 
@@ -22,3 +23,4 @@ const ClothingPiece = (props) => {
 };
 
 export default ClothingPiece;
+
