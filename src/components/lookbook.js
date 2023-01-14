@@ -1,15 +1,8 @@
 import React from "react";
 import ClothingPiece from "./ClothingPiece";
 
-class Lookbook extends React.Component {
-  render() {
-    return (
-      <div>
-        Test
-        <ClothingPiece />
-      </div>
-    );
-  }
-}
+const Lookbook = (props) => {
+  return <div className="content">{props.children}</div>;
+};
 
 export default Lookbook;

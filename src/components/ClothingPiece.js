@@ -1,9 +1,15 @@
 import React from "react";
 
-class ClothingPiece extends React.Component {
-  render() {
-    return <div>Test1</div>;
-  }
-}
+const ClothingPiece = (props) => {
+  return (
+    <div className="clothing">
+      <img alt="artifact" src={props.image}></img>
+      <div className="content">
+        <div className="Name">{props.name}</div>
+        <div className="tags">{props.tags}</div>
+      </div>
+    </div>
+  );
+};
 
 export default ClothingPiece;
