@@ -1,0 +1,14 @@
+body {
+  color: black;
+  background-color: antiquewhite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.welcome {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
