@@ -1,17 +1,21 @@
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "butt",
+  apiKey: "test",
 });
 const openai = new OpenAIApi(configuration);
 
-function stringer(array) {
+function stringer(arr) {
   theString = ""
   for (element in array) {
     theString += array;
   }
 
   return theString
+
+  amounts.forEach(item => {
+    doubledAmounts.push(item * 2);
+  })
 }
 
 console.log(stringer(["sport", "book", "apple"]));
