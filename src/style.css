@@ -126,7 +126,7 @@ button {
   background-color: white;
   flex-wrap: wrap;
   border-color: black;
-  outline: 0.1px solid black;
+  /* outline: 0.4px solid black; */
   gap: 2%;
   margin: auto;
   border-radius: 10px;
@@ -134,6 +134,8 @@ button {
   -moz-transform: translateX(10px); /* 10px to left */
   -ms-transform: translateX(10px); /* 10px to left */
   transform: translateX(10px); /* 10px to left */
+  box-shadow: -11px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  background-color: #edebe6;
 }
 
 .image-container {
@@ -141,6 +143,7 @@ button {
 
 .lookbook1 {
   padding-bottom: 100px;
+  max-width: 85%;
 }
 
 .lookbook2 {
@@ -188,11 +191,11 @@ h1 {
 }
 
 .clothing3 {
-  padding-right: 20px;
   margin-top: 30px;
 }
 
 .clothing4 {
+  padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;
 }
@@ -203,11 +206,18 @@ h1 {
 }
 
 .clothing6 {
+  padding-left: 50px;
   padding-right: 20px;
-  margin-top: 30px;
 }
 
 .clothing7 {
-  padding-left: 50px;
+  margin-top: -20px;
   padding-right: 20px;
+}
+
+.tag {
+  padding-top: 30px;
+  padding-left: 30px;
+  text-align: center;
+  font-size: 30px;
 }

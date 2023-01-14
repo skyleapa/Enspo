@@ -94,6 +94,7 @@ const Lookbook = () => {
           />{" "}
           <br />
         </div>
+        <div className="tag">#Comfy</div>
       </div>
     </div>
   );

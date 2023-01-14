@@ -29,7 +29,7 @@ const App = () => {
       </header>
       <div className="ui container">
         <div className="welcome-container">
-          <div className="welcome">Welcome to your Aritzia Lookbook!</div>
+          <div className="welcome">Welcome to your Aritzia Lookbook</div>
           <hr />
         </div>
         {/* <div className="Search">
