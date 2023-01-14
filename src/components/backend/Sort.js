@@ -1,7 +1,7 @@
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "butts",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -29,24 +29,28 @@ async function respond(keyword, array) {
     return response.data.choices[0].text;
 }
 
+
 // "beach", ["cool", "clear sky", "edgy"]
-function avgGenerator(keyword, tags) {
-  arrResponse = respond(keyword, tags);
+async function avgGenerator(keyword, tags) {
+  arrResponse = await respond(keyword, tags);
 
-  // console.log(arrResponse);
+  console.log(arrResponse);
 
-  arrResponse.then(function(result) {
-    // console.log(result)
-    // console.log(typeof(result));
-    var final = parseInt(result);
-    console.log(final);
-    // console.log(typeof(final));
-    return final;
-  })
+  return arrResponse;
+
+  // arrResponse.then(function(result) {
+  //   // console.log(result)
+  //   // console.log(typeof(result));
+  //   var final = parseInt(result);
+  //   console.log(final);
+  //   // console.log(typeof(final));
+  //   return final;
+  // })
 }
 
 console.log(avgGenerator("beach", ["cool", "clear sky", "edgy"]));
 
+module.exports = {respond};
 
 
 

@@ -1,40 +1,40 @@
 {"coats": {
-    "01": {
+    "test": {
         "link": "https://www.aritzia.com/en/product/the-super-puff™/84568.html?dwvar_84568_color=25171 ",
         "imglink": "https://drive.google.com/file/d/1jiRkKwGCqCyb6s8HBR3hohpfKDBDB_I6/view?usp=share_link",
         "sale": false,
         "tags": ["Clear sky", "Soft", "Winter", "Casual"]
     },
 
-    "02": {
+    "a": {
       "link": "https://www.aritzia.com/en/product/the-slouch™-coat-new/104726.html?dwvar_104726_color=19170",
       "imglink": "https://drive.google.com/file/d/11uuLU47qIQ1xw9W5cbbUiv_Kj-wB-zm1/view?usp=share_link",
       "sale": false,
       "tags": ["Business", "Classy", "Semi-formal", "Formal", "Oversized"]
     },
   
-    "03": {
+    "b": {
       "link": "https://www.aritzia.com/en/product/the-super-puff™-shorty/84573.html?dwvar_84573_color=6335",
       "imglink": "https://drive.google.com/file/d/1xnL0RG41eqz88dqGtxDohxPBAc0gWy1v/view?usp=share_link",
       "sale": false,
       "tags": ["Metallic", "Casual", "Classy", "Winter"]
     },
 
-    "04": {
+    "c": {
       "link": "https://www.aritzia.com/en/product/the-constant%E2%84%A2-coat/104728.html?dwvar_104728_color=19170#fs ",
       "imglink": "https://drive.google.com/file/d/1XAwt1R1xmsVzMTdrApZF4ijHrHHcA4D4/view?usp=share_link",
       "sale": false,
       "tags": ["Business", "Classy", "Semi-formal", "Formal", "Modest", "Minimalist"]
     },
 
-    "05": {
+    "d": {
       "link": "https://www.aritzia.com/en/product/agency-blazer/100636.html?dwvar_100636_color=18891#fs",
       "imglink": "https://drive.google.com/file/d/1XGFr1NdP2GDp32whhjuIqgfKI8gXrSge/view?usp=share_link",
       "sale": false,
       "tags": ["Blazer", "Business", "Casual", "Modest"]
     },
 
-    "06": {
+    "e": {
       "link": "https://www.aritzia.com/en/product/the-pillow-puff/84786.html?dwvar_84786_color=1274#fs",
       "imglink": "https://drive.google.com/file/d/13xZEgqU_HZt5ShTFka4OBwK6FKBuuNXP/view?usp=share_link",
       "sale": true,
