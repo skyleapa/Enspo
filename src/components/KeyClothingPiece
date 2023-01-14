@@ -1,7 +1,6 @@
-import { getAllByAltText } from "@testing-library/react";
 import React from "react";
 
-const ClothingPiece = (props) => {
+const KeyClothingPiece = (props) => {
   return (
     <div className="clothing">
       <img alt="artifact" src={props.image}></img>
@@ -13,5 +12,4 @@ const ClothingPiece = (props) => {
   );
 };
 
-export default ClothingPiece;
-
+export default KeyClothingPiece;
