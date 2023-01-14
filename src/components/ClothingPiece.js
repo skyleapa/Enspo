@@ -1,7 +1,8 @@
 import { getAllByAltText } from "@testing-library/react";
 import React from "react";
-import logo from "./logo.png";
+import data from "./data/clothes.json";
 
+console.log(data);
 const ClothingPiece = (props) => {
   const images = {
     "./logo.png": logo,
