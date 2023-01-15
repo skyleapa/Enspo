@@ -1,15 +1,6 @@
-import { getAllByAltText } from "@testing-library/react";
 import React from "react";
-import data from "./data/clothes.json";
 
-console.log(data);
 const ClothingPiece = (props) => {
-  const images = {
-    "./logo.png": logo,
-  };
-
-  let usedImage = images["./logo.png"];
-
   return (
     <div className="clothing">
       <div className="clothing-image">
@@ -24,4 +15,3 @@ const ClothingPiece = (props) => {
 };
 
 export default ClothingPiece;
-

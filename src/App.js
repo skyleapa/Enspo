@@ -1,9 +1,6 @@
 import React from "react";
-import SearchBar from "./components/SearchBar";
 import "./style.css";
 import Lookbook from "./components/lookbook";
-import "reactjs-popup/dist/index.css";
-import ClothingPiece from "./components/ClothingPiece";
 
 const App = () => {
   return (
